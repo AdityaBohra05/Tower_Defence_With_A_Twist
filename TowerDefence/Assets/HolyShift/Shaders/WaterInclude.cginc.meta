@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8c6a4cb5ce5c646928adfc2c466d52dd
+labels:
+- Lowpoly
+- Shader
+- Water
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87810
+  packageName: Untitled
+  packageVersion: 1.0
+  assetPath: Assets/HolyShift/Shaders/WaterInclude.cginc
+  uploadId: 174015
