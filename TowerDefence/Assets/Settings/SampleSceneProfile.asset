@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   skipIterations:
     m_OverrideState: 0
     m_Value: 1
@@ -20,8 +20,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 3.52
   intensity:
-    m_OverrideState: 1
-    m_Value: 3.4
+    m_OverrideState: 0
+    m_Value: 0.03
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -75,6 +75,28 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-6294253117495160025
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70afe9e12c7a7ed47911bb608a23a8ff, type: 3}
+  m_Name: SplitToning
+  m_EditorClassIdentifier: 
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {r: 0.2756853, g: 0.56669927, b: 0.6037736, a: 1}
+  highlights:
+    m_OverrideState: 1
+    m_Value: {r: 0.3981132, g: 0.5, b: 0.49430567, a: 1}
+  balance:
+    m_OverrideState: 1
+    m_Value: 19
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +117,7 @@ MonoBehaviour:
   - {fileID: 8967001654240200900}
   - {fileID: 151679375289933424}
   - {fileID: 9056616928080391532}
+  - {fileID: -6294253117495160025}
 --- !u!114 &151679375289933424
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -113,7 +136,7 @@ MonoBehaviour:
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 57.94
+    m_Value: 64.05
   gaussianEnd:
     m_OverrideState: 0
     m_Value: 314.69
@@ -196,19 +219,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.97
+    m_Value: 0.81
   contrast:
     m_OverrideState: 1
-    m_Value: -11
+    m_Value: 26
   colorFilter:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: -36
   saturation:
     m_OverrideState: 1
-    m_Value: -12
+    m_Value: -15
 --- !u!114 &8967001654240200900
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -221,13 +244,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221518ef91623a7438a71fef23660601, type: 3}
   m_Name: WhiteBalance
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   temperature:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: -12
   tint:
     m_OverrideState: 1
-    m_Value: 67
+    m_Value: -6
 --- !u!114 &9056616928080391532
 MonoBehaviour:
   m_ObjectHideFlags: 3
