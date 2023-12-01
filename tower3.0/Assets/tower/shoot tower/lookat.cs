@@ -5,9 +5,13 @@ using UnityEngine;
 public class lookat : MonoBehaviour
 {
     public GameObject Target;
+    public GameObject Target2;
     public GameObject projectile;
     bool alreadyAttacked;
     public float timeBetweenAttacks;
+
+   
+
     void Update()
     {
         AttackPlayer();

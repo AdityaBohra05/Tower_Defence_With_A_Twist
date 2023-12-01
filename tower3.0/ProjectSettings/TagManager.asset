@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Bullet
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -24,8 +25,8 @@ TagManager:
   - lol
   - 
   - test
-  - 
-  - 
+  - Area
+  - MapAreas
   - 
   - 
   - 

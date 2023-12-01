@@ -18,6 +18,7 @@ public class enemyH : MonoBehaviour
         
         Destroy(this.gameObject);
         GameObject explosion = Instantiate(kaboom,transform.position, transform.rotation);
+        waveSpawn.EnemiesAlive--;
         
     }
    }
